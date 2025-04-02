@@ -2,21 +2,21 @@
     "width": 1024,
     "height": 576,
     "output_folder": "applications/pikachu/_output",
-    "output_name": "2.png",
-    "background": "applications/pikachu/background/background3.jpg",
+    "output_name": "3.png",
+    "background": "applications/pikachu/background/background4.jpg",
     "mode": "3/4",
-    "text": "Chill game to play\nRelaxing graphics\nUnlimited fun",
+    "text": "Cute skin\nChill game\nUnlimited fun",
     "font_path": "./fonts/Super Lobster.ttf",
     "padding": 20,
     "sticker": [
         {
-            "path": "applications/pikachu/stickers/30.png",
+            "path": "applications/pikachu/stickers/32.png",
             "x": 740,
             "y": 250,
             "size": 300
         },
         {
-            "path": "applications/pikachu/stickers/35.png",
+            "path": "applications/pikachu/stickers/37.png",
             "x": 40,
             "y": 0,
             "size": 400
@@ -25,7 +25,7 @@
     "devices": [
         {
             "device_frame": "applications/pikachu/frame/frame_trimmed.png",
-            "screenshot": "applications/pikachu/screen_shoots/3.png",
+            "screenshot": "applications/pikachu/screen_shoots/2.png",
             "x": 300,
             "y": 20,
             "size": 800,

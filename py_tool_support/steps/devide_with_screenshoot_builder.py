@@ -1,10 +1,12 @@
 from PIL import Image, ImageDraw
 
+
 def create_device_with_frame(input_frame, input_image, size ,rotate):
     border = 95
     try:
         frame_img = Image.open(input_frame).convert("RGBA")
         input_img = Image.open(input_image).convert("RGBA")
+        
         frame_width, frame_height = frame_img.size
         frame_aspect_ratio = frame_width / frame_height
         input_width, input_height = input_img.size
@@ -24,8 +26,11 @@ def create_device_with_frame(input_frame, input_image, size ,rotate):
         mask = Image.new("L", (frame_width, frame_height), 0)
         draw = ImageDraw.Draw(mask)
         draw.rounded_rectangle([(0, 0), (frame_width, frame_height)], radius=border, fill=255)
+        
+        
         combined_img = Image.new("RGBA", (frame_width, frame_height))
         combined_img.paste(cropped_img, (0, 0))
+
         clipped_img = Image.composite(combined_img, Image.new("RGBA", (frame_width, frame_height)), mask)
         clipped_img.paste(frame_img, (0, 0), frame_img)
         clipped_img.thumbnail((size, size), Image.Resampling.LANCZOS)

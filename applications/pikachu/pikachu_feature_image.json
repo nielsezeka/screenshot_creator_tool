@@ -3,9 +3,9 @@
     "height": 500,
     "output_folder": "applications/pikachu/_output",
     "output_name": "feature.png",
-    "background": "applications/pikachu/background/background4.jpg",
+    "background": "applications/pikachu/background/background3.jpg",
     "mode": "3/4",
-    "text": "Create stunning visuals\nwith custom backgrounds\nand device ok",
+    "text": "The classic game with new skin\nUnlimited fun",
     "font_path": "./fonts/Super Lobster.ttf",
     "padding": 20,
     "sticker": [
@@ -17,9 +17,47 @@
         },
         {
             "path": "applications/pikachu/stickers/6.png",
-            "x": 430,
+            "x": 300,
             "y": 280,
             "size": 200
+        },
+        {
+            "path": "applications/pikachu/stickers/10.png",
+            "x": 300,
+            "y": 20,
+            "size": 200
+        },
+        {
+            "path": "applications/pikachu/stickers/8.png",
+            "x": 20,
+            "y": 280,
+            "size": 200
+        }
+    ],
+    "devices": [
+        {
+            "device_frame": "applications/pikachu/frame/frame_trimmed.png",
+            "screenshot": "applications/pikachu/screen_shoots/1.png",
+            "x": 500,
+            "y": 50,
+            "size": 600,
+            "rotate": 15
+        },
+        {
+            "device_frame": "applications/pikachu/frame/frame_trimmed.png",
+            "screenshot": "applications/pikachu/screen_shoots/3.png",
+            "x": 600,
+            "y": 50,
+            "size": 600,
+            "rotate": 15
+        },
+        {
+            "device_frame": "applications/pikachu/frame/frame_trimmed.png",
+            "screenshot": "applications/pikachu/screen_shoots/2.png",
+            "x": 700,
+            "y": 50,
+            "size": 600,
+            "rotate": 15
         }
     ]
 }
