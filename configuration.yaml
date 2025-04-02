@@ -1,0 +1,8 @@
+# List of JSON configuration files
+application_files:
+  - './applications/pikachu/pikachu_1.json'
+  - './applications/pikachu/pikachu_2.json'
+  - './applications/pikachu/pikachu_feature_image.json'
+
+#  python3 -m venv venv
+#  source ./venv/bin/activate

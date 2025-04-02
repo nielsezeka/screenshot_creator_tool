@@ -1,0 +1,12 @@
+{
+    "width": 800,
+    "height": 600,
+    "output_folder": "applications/pikachu/_output",
+    "output_name": "2.png",
+    "background": "applications/pikachu/background/background3.jpg",
+    "mode": "3/4",
+    "text": "Create stunning visuals\nwith custom backgrounds\nand device ok",
+    "font_path": "./fonts/Super Lobster.ttf",
+    "padding": 20,
+    "sticker": []
+}
