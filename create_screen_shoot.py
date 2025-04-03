@@ -6,6 +6,7 @@ from py_tool_support.ultils import *
 from py_tool_support.steps.additional_text import *
 from py_tool_support.steps.background import *
 from py_tool_support.steps.sticker import *
+from py_tool_support.steps.text_process import *
 from py_tool_support.steps.devide_with_screenshoot_builder import *
 
 def export_image(new_img):
@@ -20,21 +21,14 @@ def create_image_with_background_frame_and_screenshot():
         print("Failed to process images.")
         return
     new_img = Image.new("RGBA", (width, height))
-    # Step 1: background add
     new_img.paste(bg_img)
-    # Step 2: sticker add
-    draw_stickers(new_img, stickers)
-    # Step 3: text add
     draw = ImageDraw.Draw(new_img)
-    max_text_width = width // 3
-    max_text_height = height // 3  
-    add_text_to_image_on_canvas(draw, text, font_path, max_text_width, max_text_height, height)
-    # Step 4: Add device frame with screenshot
     devices_image = process_devices(devices,width, height)
     for device_img in devices_image:
         if device_img:
             new_img.paste(device_img, (0, 0), device_img)
-    # Step 5: Export image result
+    add_stickers(new_img, stickers)
+    add_texts(new_img, texts,font_path)
     export_image(new_img)
 
 if __name__ == "__main__":
@@ -56,16 +50,14 @@ if __name__ == "__main__":
         background = config.get("background", "")
         text = config.get("text", "")
         font_path = config.get("font_path", "")
-        padding = config.get("padding", 0)
         mode = config.get("mode", "")
-        rotate = config.get("rotate", "")
         stickers = config.get("sticker", [])
         devices = config.get("devices", [])
+        texts = config.get("texts", "")
         print('---------------------START---------------------------------')
         print(f"Processing config: \033[92m{application_file}\033[0m")
         print(f"\tSize: \033[36m{width} - {height}\033[0m")
         print(f"\tBackground: \033[36m{background}\033[0m")
-        print(f"\tScreenshot rotating: \033[36m{rotate}\033[0m")
         print(f"\tStickers: \033[36m{len(stickers)}\033[0m")
         
         # Call the function with the loaded configuration

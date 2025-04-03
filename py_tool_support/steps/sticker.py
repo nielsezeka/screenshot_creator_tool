@@ -16,7 +16,7 @@ def resize_sticker_to_fit(sticker_img, target_width, target_height):
     # Resize the sticker image
     return sticker_img.resize((new_width, new_height))
 
-def draw_stickers(image, stickers):
+def add_stickers(image, stickers):
     for sticker in stickers:
         try:
             sticker_img = Image.open(sticker["path"]).convert("RGBA")

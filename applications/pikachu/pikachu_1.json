@@ -4,16 +4,36 @@
     "output_folder": "applications/pikachu/_output",
     "output_name": "1.png",
     "background": "applications/pikachu/background/background5.jpg",
-    "mode": "3/4",
-    "text": "Exciting adventures\nVivid graphics\nUnlimited fun",
     "font_path": "./fonts/Super Lobster.ttf",
-    "padding": 20,
     "sticker": [
         {
             "path": "applications/pikachu/stickers/28.png",
-            "x": 40,
-            "y": 0,
+            "x": -20,
+            "y": -10,
             "size": 400
+        }
+    ],
+    "texts": [
+        {
+            "text": "Unlimited fun",
+            "x": 80,
+            "y": 350,
+            "width": 600,
+            "size": 50
+        },
+        {
+            "text": "Vivid graphics",
+            "x": 120,
+            "y": 410,
+            "width": 600,
+            "size": 50
+        },
+        {
+            "text": "Exciting adventures",
+            "x": 10,
+            "y": 470,
+            "width": 600,
+            "size": 50
         }
     ],
     "devices": [

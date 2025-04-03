@@ -4,10 +4,23 @@
     "output_folder": "applications/pikachu/_output",
     "output_name": "3.png",
     "background": "applications/pikachu/background/background4.jpg",
-    "mode": "3/4",
-    "text": "Cute skin\nChill game\nUnlimited fun",
     "font_path": "./fonts/Super Lobster.ttf",
-    "padding": 20,
+    "texts": [
+        {
+            "text": "Cute skin",
+            "x": 10,
+            "y": 400,
+            "width": 800,
+            "size": 80
+        },
+        {
+            "text": "Chill game",
+            "x": 650,
+            "y": 150,
+            "width": 800,
+            "size": 80
+        }
+    ],
     "sticker": [
         {
             "path": "applications/pikachu/stickers/32.png",
