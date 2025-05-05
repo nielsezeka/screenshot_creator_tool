@@ -8,7 +8,38 @@
     "text": "A timeless classic reimagined\nwith endless fun",
     "font_path": "./fonts/Super Lobster.ttf",
     "padding": 20,
-    "sticker": [],
+    "sticker": [
+        {
+            "path": "applications/light_up/stickers/flutter_icon.png",
+            "x": 10,
+            "y": 200,
+            "size": 50
+        },
+        {
+            "path": "applications/light_up/stickers/android_icon.png",
+            "x": 55,
+            "y": 200,
+            "size": 60
+        },
+        {
+            "path": "applications/light_up/stickers/ios.png",
+            "x": 115,
+            "y": 205,
+            "size": 50
+        },
+        {
+            "path": "applications/light_up/stickers/web.png",
+            "x": 170,
+            "y": 205,
+            "size": 50
+        },
+        {
+            "path": "applications/light_up/stickers/desktop.png",
+            "x": 230,
+            "y": 205,
+            "size": 50
+        }
+    ],
     "texts": [
         {
             "text": "- Full game logic",
