@@ -1,6 +1,7 @@
 # List of JSON configuration files
 application_files:
   - './applications/light_up/light_up_feature_image.json'
+  - './applications/light_up/light_up_icon.json'
 
 #  python3 -m venv venv
 #  source ./venv/bin/activate
