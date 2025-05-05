@@ -1,0 +1,68 @@
+{
+    "width": 590,
+    "height": 300,
+    "output_folder": "applications/light_up/_output",
+    "output_name": "feature.png",
+    "background": "applications/light_up/background/image.jpg",
+    "mode": "3/4",
+    "text": "A timeless classic reimagined\nwith endless fun",
+    "font_path": "./fonts/Super Lobster.ttf",
+    "padding": 20,
+    "sticker": [],
+    "texts": [
+        {
+            "text": "- Full game logic",
+            "x": 10,
+            "y": 30,
+            "width": 800,
+            "size": 18
+        },
+        {
+            "text": "- Auto generated level",
+            "x": 10,
+            "y": 70,
+            "width": 600,
+            "size": 18
+        },
+        {
+            "text": "- Ready to publish",
+            "x": 10,
+            "y": 110,
+            "width": 600,
+            "size": 18
+        },
+        {
+            "text": "- Support Android/iOS/Desktop/Web",
+            "x": 10,
+            "y": 150,
+            "width": 600,
+            "size": 18
+        }
+    ],
+    "devices": [
+        {
+            "device_frame": "applications/light_up/frame/frame_trimmed.png",
+            "screenshot": "applications/light_up/screen_shoots/1.png",
+            "x": 300,
+            "y": 10,
+            "size": 280,
+            "rotate": 0
+        },
+        {
+            "device_frame": "applications/light_up/frame/frame_trimmed.png",
+            "screenshot": "applications/light_up/screen_shoots/3.png",
+            "x": 440,
+            "y": -145,
+            "size": 280,
+            "rotate": 0
+        },
+        {
+            "device_frame": "applications/light_up/frame/frame_trimmed.png",
+            "screenshot": "applications/light_up/screen_shoots/2.png",
+            "x": 440,
+            "y": 145,
+            "size": 280,
+            "rotate": 0
+        }
+    ]
+}
