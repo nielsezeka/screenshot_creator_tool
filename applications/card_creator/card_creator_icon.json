@@ -1,0 +1,32 @@
+{
+    "width": 512,
+    "height": 512,
+    "output_folder": "applications/card_creator/_output",
+    "output_name": "icon.png",
+    "background": "applications/card_creator/background/background5.jpg",
+    "font_path": "./fonts/Super Lobster.ttf",
+    "sticker": [
+        {
+            "path": "applications/card_creator/stickers/iconbg.png",
+            "x": -100,
+            "y": -100,
+            "size": 720
+        },
+        {
+            "path": "applications/card_creator/stickers/back_card.jpg",
+            "x": 200,
+            "y": 120,
+            "size": 200
+        }
+    ],
+    "texts": [
+        {
+            "text": "Card creator",
+            "x": 145,
+            "y": 340,
+            "width": 800,
+            "size": 45
+        }
+    ],
+    "devices": []
+}

@@ -1,9 +1,9 @@
 {
     "width": 1024,
     "height": 576,
-    "output_folder": "applications/pikachu/_output",
+    "output_folder": "applications/card_creator/_output",
     "output_name": "2.png",
-    "background": "applications/pikachu/background/background3.jpg",
+    "background": "applications/card_creator/background/background3.jpg",
     "font_path": "./fonts/Super Lobster.ttf",
     "texts": [
         {
@@ -14,24 +14,11 @@
             "size": 80
         }
     ],
-    "sticker": [
-        {
-            "path": "applications/pikachu/stickers/30.png",
-            "x": 740,
-            "y": 250,
-            "size": 300
-        },
-        {
-            "path": "applications/pikachu/stickers/35.png",
-            "x": 40,
-            "y": 0,
-            "size": 400
-        }
-    ],
+    "sticker": [],
     "devices": [
         {
-            "device_frame": "applications/pikachu/frame/frame_trimmed.png",
-            "screenshot": "applications/pikachu/screen_shoots/2.png",
+            "device_frame": "applications/card_creator/frame/frame_trimmed.png",
+            "screenshot": "applications/card_creator/screen_shoots/4.png",
             "x": 300,
             "y": 20,
             "size": 800,

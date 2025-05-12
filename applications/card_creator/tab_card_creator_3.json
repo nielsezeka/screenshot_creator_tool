@@ -1,8 +1,8 @@
 {
-    "width": 1024,
-    "height": 576,
+    "width": 1920,
+    "height": 1080,
     "output_folder": "applications/card_creator/_output",
-    "output_name": "3.png",
+    "output_name": "tab_3.png",
     "background": "applications/card_creator/background/background4.jpg",
     "font_path": "./fonts/Super Lobster.ttf",
     "texts": [
@@ -11,14 +11,14 @@
             "x": 10,
             "y": 400,
             "width": 800,
-            "size": 80
+            "size": 120
         },
         {
             "text": "Chill game",
-            "x": 650,
-            "y": 150,
+            "x": 1050,
+            "y": 800,
             "width": 800,
-            "size": 80
+            "size": 120
         }
     ],
     "sticker": [],
@@ -26,9 +26,9 @@
         {
             "device_frame": "applications/card_creator/frame/frame_trimmed.png",
             "screenshot": "applications/card_creator/screen_shoots/4.png",
-            "x": 300,
+            "x": 600,
             "y": 20,
-            "size": 800,
+            "size": 1200,
             "rotate": -15
         }
     ]

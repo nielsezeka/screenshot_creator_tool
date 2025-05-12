@@ -1,7 +1,15 @@
 # List of JSON configuration files
 application_files:
-  - './applications/light_up/light_up_feature_image.json'
-  - './applications/light_up/light_up_icon.json'
+  - './applications/card_creator/card_creator_icon.json'
+  - './applications/card_creator/card_creator_feature_image.json'
+  - './applications/card_creator/card_creator_1.json'
+  - './applications/card_creator/card_creator_2.json'
+  - './applications/card_creator/card_creator_3.json'
+  - './applications/card_creator/tab_card_creator_1.json'
+  - './applications/card_creator/tab_card_creator_2.json'
+  - './applications/card_creator/tab_card_creator_3.json'
+  - './applications/card_creator/tab_card_creator_4.json'
+  
 
 #  python3 -m venv venv
 #  source ./venv/bin/activate
