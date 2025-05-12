@@ -1,0 +1,99 @@
+{
+    "width": 590,
+    "height": 300,
+    "output_folder": "applications/card_creator/_output",
+    "output_name": "code_canyon_feature.png",
+    "background": "applications/card_creator/background/image.jpg",
+    "mode": "3/4",
+    "text": "A timeless classic reimagined\nwith endless fun",
+    "font_path": "./fonts/Super Lobster.ttf",
+    "padding": 20,
+    "sticker": [
+        {
+            "path": "applications/card_creator/stickers/flutter_icon.png",
+            "x": 10,
+            "y": 200,
+            "size": 50
+        },
+        {
+            "path": "applications/card_creator/stickers/android_icon.png",
+            "x": 55,
+            "y": 200,
+            "size": 60
+        },
+        {
+            "path": "applications/card_creator/stickers/ios.png",
+            "x": 115,
+            "y": 205,
+            "size": 50
+        },
+        {
+            "path": "applications/card_creator/stickers/web.png",
+            "x": 170,
+            "y": 205,
+            "size": 50
+        },
+        {
+            "path": "applications/card_creator/stickers/desktop.png",
+            "x": 230,
+            "y": 205,
+            "size": 50
+        }
+    ],
+    "texts": [
+        {
+            "text": "- Full app logic(latest Yugioh format)",
+            "x": 10,
+            "y": 30,
+            "width": 800,
+            "size": 18
+        },
+        {
+            "text": "- Dynamic theme changing",
+            "x": 10,
+            "y": 70,
+            "width": 600,
+            "size": 18
+        },
+        {
+            "text": "- Ready to publish",
+            "x": 10,
+            "y": 110,
+            "width": 600,
+            "size": 18
+        },
+        {
+            "text": "- Support Android/iOS/Desktop/Web",
+            "x": 10,
+            "y": 150,
+            "width": 600,
+            "size": 18
+        }
+    ],
+    "devices": [
+        {
+            "device_frame": "applications/card_creator/frame/frame_trimmed.png",
+            "screenshot": "applications/card_creator/screen_shoots/4.png",
+            "x": 300,
+            "y": 10,
+            "size": 280,
+            "rotate": 0
+        },
+        {
+            "device_frame": "applications/card_creator/frame/frame_trimmed.png",
+            "screenshot": "applications/card_creator/screen_shoots/3.png",
+            "x": 440,
+            "y": -145,
+            "size": 280,
+            "rotate": 0
+        },
+        {
+            "device_frame": "applications/card_creator/frame/frame_trimmed.png",
+            "screenshot": "applications/card_creator/screen_shoots/2.png",
+            "x": 440,
+            "y": 145,
+            "size": 280,
+            "rotate": 0
+        }
+    ]
+}
