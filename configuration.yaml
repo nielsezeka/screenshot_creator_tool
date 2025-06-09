@@ -1,15 +1,18 @@
 # List of JSON configuration files
 application_files:
-  # - './applications/card_creator/card_creator_icon.json'
-  # - './applications/card_creator/card_creator_feature_image.json'
-  # - './applications/card_creator/card_creator_1.json'
-  # - './applications/card_creator/card_creator_2.json'
-  # - './applications/card_creator/card_creator_3.json'
-  # - './applications/card_creator/tab_card_creator_1.json'
-  # - './applications/card_creator/tab_card_creator_2.json'
-  # - './applications/card_creator/tab_card_creator_3.json'
-  # - './applications/card_creator/tab_card_creator_4.json'
-  - './applications/card_creator/card_creator_codecanyon_feature.json'
+  # - './applications/sliding_puzzle/sliding_puzzle_1.json'
+  # - './applications/sliding_puzzle/sliding_puzzle_2.json'
+  # - './applications/sliding_puzzle/sliding_puzzle_3.json'
+  # - './applications/sliding_puzzle/tab_sliding_puzzle_1.json'
+  # - './applications/sliding_puzzle/tab_sliding_puzzle_2.json'
+  # - './applications/sliding_puzzle/tab_sliding_puzzle_3.json'
+  # - './applications/sliding_puzzle/tab_sliding_puzzle_4.json'
+  # - './applications/sliding_puzzle/sliding_puzzle_codecanyon_feature.json'
+  # - './applications/sliding_puzzle/sliding_puzzle_feature_image.json'
+  # - './applications/sliding_puzzle/sliding_puzzle_pc_icon.json'
+  - './applications/sliding_puzzle/sliding_puzzle_feature_pc.json'
+  
+  
   
 
 #  python3 -m venv venv

@@ -1,0 +1,28 @@
+{
+    "width": 1920,
+    "height": 1080,
+    "output_folder": "applications/sliding_puzzle/_output",
+    "output_name": "tab_2.png",
+    "background": "applications/sliding_puzzle/background/background3.jpg",
+    "font_path": "./fonts/Super Lobster.ttf",
+    "texts": [
+        {
+            "text": "Cute skin",
+            "x": 100,
+            "y": 600,
+            "width": 1200,
+            "size": 120
+        }
+    ],
+    "sticker": [],
+    "devices": [
+        {
+            "device_frame": "applications/sliding_puzzle/frame/frame_trimmed.png",
+            "screenshot": "applications/sliding_puzzle/screen_shoots/4.png",
+            "x": 800,
+            "y": 20,
+            "size": 1200,
+            "rotate": -15
+        }
+    ]
+}

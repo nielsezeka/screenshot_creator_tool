@@ -1,0 +1,54 @@
+{
+    "width": 1920,
+    "height": 1080,
+    "output_folder": "applications/sliding_puzzle/_output",
+    "output_name": "feature_pc.png",
+    "background": "applications/sliding_puzzle/background/background2.jpg",
+    "mode": "3/4",
+    "text": "A timeless classic reimagined\nwith endless fun",
+    "font_path": "./fonts/Super Lobster.ttf",
+    "padding": 20,
+    "sticker": [],
+    "texts": [
+        {
+            "text": "A timeless classic reimagined",
+            "x": 10,
+            "y": 200,
+            "width": 2000,
+            "size": 120
+        },
+        {
+            "text": "with endless fun",
+            "x": 150,
+            "y": 340,
+            "width": 2000,
+            "size": 120
+        }
+    ],
+    "devices": [
+        {
+            "device_frame": "applications/sliding_puzzle/frame/frame_trimmed.png",
+            "screenshot": "applications/sliding_puzzle/screen_shoots/1.png",
+            "x": 500,
+            "y": 50,
+            "size": 1200,
+            "rotate": 15
+        },
+        {
+            "device_frame": "applications/sliding_puzzle/frame/frame_trimmed.png",
+            "screenshot": "applications/sliding_puzzle/screen_shoots/3.png",
+            "x": 700,
+            "y": 50,
+            "size": 1200,
+            "rotate": 15
+        },
+        {
+            "device_frame": "applications/sliding_puzzle/frame/frame_trimmed.png",
+            "screenshot": "applications/sliding_puzzle/screen_shoots/4.png",
+            "x": 900,
+            "y": 50,
+            "size": 1200,
+            "rotate": 15
+        }
+    ]
+}

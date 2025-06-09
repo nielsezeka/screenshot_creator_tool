@@ -1,0 +1,28 @@
+{
+    "width": 1024,
+    "height": 576,
+    "output_folder": "applications/sliding_puzzle/_output",
+    "output_name": "2.png",
+    "background": "applications/sliding_puzzle/background/background3.jpg",
+    "font_path": "./fonts/Super Lobster.ttf",
+    "texts": [
+        {
+            "text": "Cute skin",
+            "x": 10,
+            "y": 400,
+            "width": 800,
+            "size": 80
+        }
+    ],
+    "sticker": [],
+    "devices": [
+        {
+            "device_frame": "applications/sliding_puzzle/frame/frame_trimmed.png",
+            "screenshot": "applications/sliding_puzzle/screen_shoots/4.png",
+            "x": 300,
+            "y": 20,
+            "size": 800,
+            "rotate": -15
+        }
+    ]
+}
