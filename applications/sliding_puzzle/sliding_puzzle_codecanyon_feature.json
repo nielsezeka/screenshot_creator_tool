@@ -42,14 +42,14 @@
     ],
     "texts": [
         {
-            "text": "- Full app logic(latest Yugioh format)",
+            "text": "- Full game logic/ui",
             "x": 10,
             "y": 30,
             "width": 800,
             "size": 18
         },
         {
-            "text": "- Dynamic theme changing",
+            "text": "- Many prebuild level with comfyui",
             "x": 10,
             "y": 70,
             "width": 600,
@@ -63,7 +63,7 @@
             "size": 18
         },
         {
-            "text": "- Support Android/iOS/Desktop/Web",
+            "text": "- Easy to reskin",
             "x": 10,
             "y": 150,
             "width": 600,

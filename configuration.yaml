@@ -7,10 +7,10 @@ application_files:
   # - './applications/sliding_puzzle/tab_sliding_puzzle_2.json'
   # - './applications/sliding_puzzle/tab_sliding_puzzle_3.json'
   # - './applications/sliding_puzzle/tab_sliding_puzzle_4.json'
-  # - './applications/sliding_puzzle/sliding_puzzle_codecanyon_feature.json'
+  - './applications/sliding_puzzle/sliding_puzzle_codecanyon_feature.json'
   # - './applications/sliding_puzzle/sliding_puzzle_feature_image.json'
   # - './applications/sliding_puzzle/sliding_puzzle_pc_icon.json'
-  - './applications/sliding_puzzle/sliding_puzzle_feature_pc.json'
+  # - './applications/sliding_puzzle/sliding_puzzle_feature_pc.json'
   
   
   
