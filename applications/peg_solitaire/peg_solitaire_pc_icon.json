@@ -1,0 +1,29 @@
+{
+    "width": 600,
+    "height": 400,
+    "output_folder": "applications/peg_solitaire/_output",
+    "output_name": "pc_app_icon.png",
+    "background": "applications/peg_solitaire/background/background3.jpg",
+    "mode": "3/4",
+    "text": "A timeless classic reimagined\nwith endless fun",
+    "font_path": "./fonts/Super Lobster.ttf",
+    "padding": 20,
+    "sticker": [
+        {
+            "path": "applications/peg_solitaire/screen_shoots/app_icon.png",
+            "x": 100,
+            "y": 0,
+            "size": 400
+        }
+    ],
+    "texts": [
+        {
+            "text": "Peg Solitaire",
+            "x": 50,
+            "y": 300,
+            "width": 800,
+            "size": 80
+        }
+    ],
+    "devices": []
+}

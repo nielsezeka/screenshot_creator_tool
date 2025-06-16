@@ -1,0 +1,50 @@
+{
+    "width": 1024,
+    "height": 576,
+    "output_folder": "applications/peg_solitaire/_output",
+    "output_name": "1.png",
+    "background": "applications/peg_solitaire/background/background5.jpg",
+    "font_path": "./fonts/Super Lobster.ttf",
+    "sticker": [],
+    "texts": [
+        {
+            "text": "Unlimited fun",
+            "x": 80,
+            "y": 350,
+            "width": 600,
+            "size": 50
+        },
+        {
+            "text": "Vivid graphics",
+            "x": 120,
+            "y": 410,
+            "width": 600,
+            "size": 50
+        },
+        {
+            "text": "Exciting adventures",
+            "x": 10,
+            "y": 470,
+            "width": 600,
+            "size": 50
+        }
+    ],
+    "devices": [
+        {
+            "device_frame": "applications/peg_solitaire/frame/frame_trimmed.png",
+            "screenshot": "applications/peg_solitaire/screen_shoots/2.png",
+            "x": 350,
+            "y": 0,
+            "size": 800,
+            "rotate": 15
+        },
+        {
+            "device_frame": "applications/peg_solitaire/frame/frame_trimmed.png",
+            "screenshot": "applications/peg_solitaire/screen_shoots/4.png",
+            "x": 600,
+            "y": 0,
+            "size": 800,
+            "rotate": 15
+        }
+    ]
+}

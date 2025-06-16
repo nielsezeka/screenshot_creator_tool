@@ -1,16 +1,16 @@
 # List of JSON configuration files
 application_files:
-  # - './applications/sliding_puzzle/sliding_puzzle_1.json'
-  # - './applications/sliding_puzzle/sliding_puzzle_2.json'
-  # - './applications/sliding_puzzle/sliding_puzzle_3.json'
-  # - './applications/sliding_puzzle/tab_sliding_puzzle_1.json'
-  # - './applications/sliding_puzzle/tab_sliding_puzzle_2.json'
-  # - './applications/sliding_puzzle/tab_sliding_puzzle_3.json'
-  # - './applications/sliding_puzzle/tab_sliding_puzzle_4.json'
-  - './applications/sliding_puzzle/sliding_puzzle_codecanyon_feature.json'
-  # - './applications/sliding_puzzle/sliding_puzzle_feature_image.json'
-  # - './applications/sliding_puzzle/sliding_puzzle_pc_icon.json'
-  # - './applications/sliding_puzzle/sliding_puzzle_feature_pc.json'
+  - './applications/peg_solitaire/peg_solitaire_1.json'
+  - './applications/peg_solitaire/peg_solitaire_2.json'
+  - './applications/peg_solitaire/peg_solitaire_3.json'
+  - './applications/peg_solitaire/tab_peg_solitaire_1.json'
+  - './applications/peg_solitaire/tab_peg_solitaire_2.json'
+  - './applications/peg_solitaire/tab_peg_solitaire_3.json'
+  - './applications/peg_solitaire/tab_peg_solitaire_4.json'
+  - './applications/peg_solitaire/peg_solitaire_codecanyon_feature.json'
+  - './applications/peg_solitaire/peg_solitaire_feature_image.json'
+  - './applications/peg_solitaire/peg_solitaire_pc_icon.json'
+  - './applications/peg_solitaire/peg_solitaire_feature_pc.json'
   
   
   
